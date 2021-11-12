@@ -5,7 +5,7 @@ Hey there! This is the repository with the code I used in the OpenCL tutorial vi
 # How to build
 
 1. Download the repo in whichever way you like.
-2. Install the OpenCL binaries on your system. You can get them for AMD: http://developer.amd.com/tools-and-sdks/heterogeneous-computing/amd-accelerated-parallel-processing-app-sdk/downloads/ , for Intel: http://software.intel.com/en-us/vcsource/tools/opencl-sdk , or for Nvidia: https://developer.nvidia.com/cuda-downloads.
+2. Install the OpenCL binaries on your system. You can get them for AMD: https://github.com/GPUOpen-LibrariesAndSDKs/OCL-SDK/releases , for Intel: http://software.intel.com/en-us/vcsource/tools/opencl-sdk , or for Nvidia: https://developer.nvidia.com/cuda-downloads.
 3. Open the repo in Visual Studio 2019 or above.
 4. Go into the project properties -> Linker -> General -> Additional library directories, and add the directory containing your OpenCL binaries.
 5. Then go to project properties -> Linker -> Input -> Additional dependencies, and add the OpenCL binary. (usually 'OpenCL.lib')
